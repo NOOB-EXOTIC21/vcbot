@@ -11,9 +11,14 @@
   "scripts": {
     "start": "python main.py"
   },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
+"buildpacks": [
+  {
+    "url": "heroku/python",
+    "stack": "heroku-20",
+    "config": {
+      "python_version": "3.8.12"
     }
-  ]
+  }
+]
+
 }
