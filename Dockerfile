@@ -11,4 +11,4 @@ COPY main.py .
 RUN pip install telebot requests
 
 # Run your script when the container launches
-CMD ["python", "./main.py"]
+CMD ["python", "main.py"]
